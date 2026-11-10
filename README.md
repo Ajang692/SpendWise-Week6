@@ -25,6 +25,21 @@ https://spendwise-tracker-project.netlify.app
 6. Tested the live website.
 7. Updated the project on GitHub and confirmed automatic deployment.
 
+8. ## Netlify Build Configuration
+
+SpendWise is a static website built using HTML, CSS, and JavaScript. Therefore, no build command is required.
+
+The Netlify deployment settings are:
+
+- **Build command:** None (leave blank)
+- **Publish directory:** `.` (repository root)
+- **Base directory:** Leave blank
+
+Netlify publishes the website directly from the GitHub repository without requiring an additional build process.
+
+The GitHub repository is connected to Netlify, enabling automatic deployment whenever new changes are committed to the main branch.
+
+
 ## Challenges Encountered During Deployment
 One challenge was understanding how GitHub connects to Netlify. I learned how to connect my repository and deploy the website.
 
